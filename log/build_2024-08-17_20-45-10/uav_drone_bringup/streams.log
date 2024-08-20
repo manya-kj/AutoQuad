@@ -1,0 +1,21 @@
+[0.809s] Invoking command in '/home/manya/uav_drone/uav_drone_bringup': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_bringup build --build-base /home/manya/uav_drone/build/uav_drone_bringup/build install --record /home/manya/uav_drone/build/uav_drone_bringup/install.log --single-version-externally-managed install_data
+[1.033s] running egg_info
+[1.034s] writing ../build/uav_drone_bringup/uav_drone_bringup.egg-info/PKG-INFO
+[1.034s] writing dependency_links to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/dependency_links.txt
+[1.035s] writing entry points to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/entry_points.txt
+[1.035s] writing requirements to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/requires.txt
+[1.035s] writing top-level names to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/top_level.txt
+[1.037s] reading manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'
+[1.037s] writing manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'
+[1.037s] running build
+[1.038s] running build_py
+[1.038s] running install
+[1.038s] running install_lib
+[1.039s] running install_data
+[1.040s] running install_egg_info
+[1.041s] removing '/home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[1.042s] Copying ../build/uav_drone_bringup/uav_drone_bringup.egg-info to /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup-0.0.0-py3.10.egg-info
+[1.043s] running install_scripts
+[1.065s] Installing spawn_drone script to /home/manya/uav_drone/install/uav_drone_bringup/lib/uav_drone_bringup
+[1.065s] writing list of installed files to '/home/manya/uav_drone/build/uav_drone_bringup/install.log'
+[1.110s] Invoked command in '/home/manya/uav_drone/uav_drone_bringup' returned '0': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_bringup build --build-base /home/manya/uav_drone/build/uav_drone_bringup/build install --record /home/manya/uav_drone/build/uav_drone_bringup/install.log --single-version-externally-managed install_data

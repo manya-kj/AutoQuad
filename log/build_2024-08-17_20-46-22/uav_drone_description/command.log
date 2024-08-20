@@ -1,0 +1,4 @@
+Invoking command in '/home/manya/uav_drone/build/uav_drone_description': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_description -- -j12 -l12
+Invoked command in '/home/manya/uav_drone/build/uav_drone_description' returned '0': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_description -- -j12 -l12
+Invoking command in '/home/manya/uav_drone/build/uav_drone_description': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_description
+Invoked command in '/home/manya/uav_drone/build/uav_drone_description' returned '0': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_description

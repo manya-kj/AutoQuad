@@ -1,0 +1,329 @@
+[0.000000] (-) TimerEvent: {}
+[0.000252] (uav_drone_bringup) JobQueued: {'identifier': 'uav_drone_bringup', 'dependencies': OrderedDict()}
+[0.000290] (uav_drone_control) JobQueued: {'identifier': 'uav_drone_control', 'dependencies': OrderedDict()}
+[0.000314] (uav_drone_description) JobQueued: {'identifier': 'uav_drone_description', 'dependencies': OrderedDict()}
+[0.000333] (uav_drone_simulation) JobQueued: {'identifier': 'uav_drone_simulation', 'dependencies': OrderedDict()}
+[0.000351] (uav_drone_bringup) JobStarted: {'identifier': 'uav_drone_bringup'}
+[0.006370] (uav_drone_control) JobStarted: {'identifier': 'uav_drone_control'}
+[0.010344] (uav_drone_description) JobStarted: {'identifier': 'uav_drone_description'}
+[0.012754] (uav_drone_simulation) JobStarted: {'identifier': 'uav_drone_simulation'}
+[0.099332] (-) TimerEvent: {}
+[0.199612] (-) TimerEvent: {}
+[0.299890] (-) TimerEvent: {}
+[0.400180] (-) TimerEvent: {}
+[0.411370] (uav_drone_description) JobProgress: {'identifier': 'uav_drone_description', 'progress': 'cmake'}
+[0.411789] (uav_drone_description) Command: {'cmd': ['/usr/bin/cmake', '/home/manya/uav_drone/uav_drone_description', '-DCMAKE_INSTALL_PREFIX=/home/manya/uav_drone/install/uav_drone_description'], 'cwd': '/home/manya/uav_drone/build/uav_drone_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/manya'), ('OLDPWD', '/home/manya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1608'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'manya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manya'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/manya/PX4-Autopilot/Tools/sitl_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/manya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/manya-Inspiron-14-7425-2-in-1:@/tmp/.ICE-unix/1582,unix/manya-Inspiron-14-7425-2-in-1:/tmp/.ICE-unix/1582'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09303301_8bf8_43d1_b1b0_2f46de7db3e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z0TNS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manya/uav_drone/build/uav_drone_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble')]), 'shell': False}
+[0.414903] (uav_drone_simulation) JobProgress: {'identifier': 'uav_drone_simulation', 'progress': 'cmake'}
+[0.415125] (uav_drone_simulation) Command: {'cmd': ['/usr/bin/cmake', '/home/manya/uav_drone/uav_drone_simulation', '-DCMAKE_INSTALL_PREFIX=/home/manya/uav_drone/install/uav_drone_simulation'], 'cwd': '/home/manya/uav_drone/build/uav_drone_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/manya'), ('OLDPWD', '/home/manya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1608'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'manya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manya'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/manya/PX4-Autopilot/Tools/sitl_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/manya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/manya-Inspiron-14-7425-2-in-1:@/tmp/.ICE-unix/1582,unix/manya-Inspiron-14-7425-2-in-1:/tmp/.ICE-unix/1582'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09303301_8bf8_43d1_b1b0_2f46de7db3e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z0TNS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manya/uav_drone/build/uav_drone_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble')]), 'shell': False}
+[0.485750] (uav_drone_simulation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.485973] (uav_drone_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500265] (-) TimerEvent: {}
+[0.554021] (uav_drone_simulation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.554258] (uav_drone_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.562287] (uav_drone_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.562403] (uav_drone_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600370] (-) TimerEvent: {}
+[0.625643] (uav_drone_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.625805] (uav_drone_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.634794] (uav_drone_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.635044] (uav_drone_simulation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.635528] (uav_drone_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.635677] (uav_drone_simulation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.636135] (uav_drone_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.636234] (uav_drone_simulation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.640249] (uav_drone_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.640377] (uav_drone_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700494] (-) TimerEvent: {}
+[0.715513] (uav_drone_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.715734] (uav_drone_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.721134] (uav_drone_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.721389] (uav_drone_simulation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.721530] (uav_drone_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.721601] (uav_drone_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.721726] (uav_drone_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.721811] (uav_drone_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.725469] (uav_drone_simulation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.727554] (uav_drone_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.728014] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.741881] (uav_drone_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.776298] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'OGRE-Terrain'\n"}
+[0.785210] (uav_drone_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/uav_drone_control', 'build', '--build-base', '/home/manya/uav_drone/build/uav_drone_control/build', 'install', '--record', '/home/manya/uav_drone/build/uav_drone_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/manya/uav_drone/uav_drone_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'manya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/manya', 'OLDPWD': '/home/manya', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1608', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'manya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'manya', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/manya/PX4-Autopilot/Tools/sitl_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/manya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manya-Inspiron-14-7425-2-in-1:@/tmp/.ICE-unix/1582,unix/manya-Inspiron-14-7425-2-in-1:/tmp/.ICE-unix/1582', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/09303301_8bf8_43d1_b1b0_2f46de7db3e2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z0TNS2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/manya/uav_drone/build/uav_drone_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': ':/opt/ros/humble'}, 'shell': False}
+[0.788699] (uav_drone_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/uav_drone_bringup', 'build', '--build-base', '/home/manya/uav_drone/build/uav_drone_bringup/build', 'install', '--record', '/home/manya/uav_drone/build/uav_drone_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/manya/uav_drone/uav_drone_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'manya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/manya', 'OLDPWD': '/home/manya', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1608', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'manya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'manya', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/manya/PX4-Autopilot/Tools/sitl_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/manya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/manya-Inspiron-14-7425-2-in-1:@/tmp/.ICE-unix/1582,unix/manya-Inspiron-14-7425-2-in-1:/tmp/.ICE-unix/1582', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/09303301_8bf8_43d1_b1b0_2f46de7db3e2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z0TNS2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/manya/uav_drone/build/uav_drone_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/manya/uav_drone/build/uav_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': ':/opt/ros/humble'}, 'shell': False}
+[0.789960] (uav_drone_description) StdoutLine: {'line': b'--   Found OGRE-Terrain, version 1.9.0\n'}
+[0.800580] (-) TimerEvent: {}
+[0.824088] (uav_drone_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.856202] (uav_drone_simulation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.900688] (-) TimerEvent: {}
+[0.951947] (uav_drone_simulation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.952664] (uav_drone_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.991295] (uav_drone_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[0.991869] (uav_drone_bringup) StdoutLine: {'line': b'creating ../build/uav_drone_bringup/uav_drone_bringup.egg-info\n'}
+[0.992030] (uav_drone_bringup) StdoutLine: {'line': b'writing ../build/uav_drone_bringup/uav_drone_bringup.egg-info/PKG-INFO\n'}
+[0.992239] (uav_drone_bringup) StdoutLine: {'line': b'writing dependency_links to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/dependency_links.txt\n'}
+[0.992369] (uav_drone_bringup) StdoutLine: {'line': b'writing entry points to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/entry_points.txt\n'}
+[0.992461] (uav_drone_bringup) StdoutLine: {'line': b'writing requirements to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/requires.txt\n'}
+[0.992547] (uav_drone_bringup) StdoutLine: {'line': b'writing top-level names to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/top_level.txt\n'}
+[0.992663] (uav_drone_bringup) StdoutLine: {'line': b"writing manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'\n"}
+[0.993914] (uav_drone_bringup) StdoutLine: {'line': b"reading manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'\n"}
+[0.994439] (uav_drone_bringup) StdoutLine: {'line': b"writing manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'\n"}
+[0.994533] (uav_drone_bringup) StdoutLine: {'line': b'running build\n'}
+[0.994584] (uav_drone_bringup) StdoutLine: {'line': b'running build_py\n'}
+[0.994651] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/build/uav_drone_bringup/build\n'}
+[0.994718] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/build/uav_drone_bringup/build/lib\n'}
+[0.994798] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup\n'}
+[0.994880] (uav_drone_bringup) StdoutLine: {'line': b'copying uav_drone_bringup/__init__.py -> /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup\n'}
+[0.994951] (uav_drone_bringup) StdoutLine: {'line': b'copying uav_drone_bringup/spawn_drone.py -> /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup\n'}
+[0.995152] (uav_drone_bringup) StdoutLine: {'line': b'running install\n'}
+[0.995465] (uav_drone_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[0.996130] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup\n'}
+[0.996243] (uav_drone_bringup) StdoutLine: {'line': b'copying /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup/__init__.py -> /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup\n'}
+[0.996364] (uav_drone_bringup) StdoutLine: {'line': b'copying /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup/spawn_drone.py -> /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup\n'}
+[0.996622] (uav_drone_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.996748] (uav_drone_bringup) StdoutLine: {'line': b'byte-compiling /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup/__init__.py to __init__.cpython-310.pyc\n'}
+[0.996912] (uav_drone_bringup) StdoutLine: {'line': b'byte-compiling /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup/spawn_drone.py to spawn_drone.cpython-310.pyc\n'}
+[0.997176] (uav_drone_control) StdoutLine: {'line': b'creating ../build/uav_drone_control/uav_drone_control.egg-info\n'}
+[0.997276] (uav_drone_bringup) StdoutLine: {'line': b'running install_data\n'}
+[0.997380] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index\n'}
+[0.997481] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index/resource_index\n'}
+[0.997614] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index/resource_index/packages\n'}
+[0.997688] (uav_drone_bringup) StdoutLine: {'line': b'copying resource/uav_drone_bringup -> /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index/resource_index/packages\n'}
+[0.997785] (uav_drone_control) StdoutLine: {'line': b'writing ../build/uav_drone_control/uav_drone_control.egg-info/PKG-INFO\n'}
+[0.997836] (uav_drone_control) StdoutLine: {'line': b'writing dependency_links to ../build/uav_drone_control/uav_drone_control.egg-info/dependency_links.txt\n'}
+[0.997886] (uav_drone_bringup) StdoutLine: {'line': b'copying package.xml -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup\n'}
+[0.998002] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/launch\n'}
+[0.998080] (uav_drone_control) StdoutLine: {'line': b'writing entry points to ../build/uav_drone_control/uav_drone_control.egg-info/entry_points.txt\n'}
+[0.998128] (uav_drone_control) StdoutLine: {'line': b'writing requirements to ../build/uav_drone_control/uav_drone_control.egg-info/requires.txt\n'}
+[0.998173] (uav_drone_control) StdoutLine: {'line': b'writing top-level names to ../build/uav_drone_control/uav_drone_control.egg-info/top_level.txt\n'}
+[0.998216] (uav_drone_bringup) StdoutLine: {'line': b'copying launch/uav_drone_bringup.launch.py -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/launch\n'}
+[0.998262] (uav_drone_bringup) StdoutLine: {'line': b'copying launch/uav_drone_gazebo.launch.py -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/launch\n'}
+[0.998349] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/rviz\n'}
+[0.998399] (uav_drone_control) StdoutLine: {'line': b"writing manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'\n"}
+[0.998444] (uav_drone_bringup) StdoutLine: {'line': b'copying rviz/rviz.rviz -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/rviz\n'}
+[0.998492] (uav_drone_bringup) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/config\n'}
+[0.998560] (uav_drone_bringup) StdoutLine: {'line': b'copying config/drone.yaml -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/config\n'}
+[0.998613] (uav_drone_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.999423] (uav_drone_control) StdoutLine: {'line': b"reading manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'\n"}
+[0.999892] (uav_drone_bringup) StdoutLine: {'line': b'Copying ../build/uav_drone_bringup/uav_drone_bringup.egg-info to /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup-0.0.0-py3.10.egg-info\n'}
+[1.000010] (uav_drone_control) StdoutLine: {'line': b"writing manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'\n"}
+[1.000084] (uav_drone_control) StdoutLine: {'line': b'running build\n'}
+[1.000154] (uav_drone_control) StdoutLine: {'line': b'running build_py\n'}
+[1.000246] (uav_drone_control) StdoutLine: {'line': b'creating /home/manya/uav_drone/build/uav_drone_control/build\n'}
+[1.000312] (uav_drone_control) StdoutLine: {'line': b'creating /home/manya/uav_drone/build/uav_drone_control/build/lib\n'}
+[1.000378] (uav_drone_control) StdoutLine: {'line': b'creating /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control\n'}
+[1.000444] (uav_drone_control) StdoutLine: {'line': b'copying uav_drone_control/drone_position_control.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control\n'}
+[1.000579] (uav_drone_control) StdoutLine: {'line': b'copying uav_drone_control/__init__.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control\n'}
+[1.000664] (uav_drone_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[1.000713] (-) TimerEvent: {}
+[1.000825] (uav_drone_control) StdoutLine: {'line': b'copying uav_drone_control/teleop_joystick.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control\n'}
+[1.000905] (uav_drone_control) StdoutLine: {'line': b'copying uav_drone_control/open_loop_control.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control\n'}
+[1.001067] (uav_drone_control) StdoutLine: {'line': b'copying uav_drone_control/autonomous_explorer.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control\n'}
+[1.001186] (uav_drone_control) StdoutLine: {'line': b'copying uav_drone_control/teleop.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control\n'}
+[1.001485] (uav_drone_control) StdoutLine: {'line': b'running install\n'}
+[1.001797] (uav_drone_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.002524] (uav_drone_control) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control\n'}
+[1.002626] (uav_drone_control) StdoutLine: {'line': b'copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/drone_position_control.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control\n'}
+[1.002732] (uav_drone_control) StdoutLine: {'line': b'copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/__init__.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control\n'}
+[1.002821] (uav_drone_control) StdoutLine: {'line': b'copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/teleop_joystick.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control\n'}
+[1.002912] (uav_drone_control) StdoutLine: {'line': b'copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/open_loop_control.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control\n'}
+[1.002987] (uav_drone_control) StdoutLine: {'line': b'copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/autonomous_explorer.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control\n'}
+[1.003061] (uav_drone_control) StdoutLine: {'line': b'copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/teleop.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control\n'}
+[1.003600] (uav_drone_control) StdoutLine: {'line': b'byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/drone_position_control.py to drone_position_control.cpython-310.pyc\n'}
+[1.003992] (uav_drone_control) StdoutLine: {'line': b'byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/__init__.py to __init__.cpython-310.pyc\n'}
+[1.004141] (uav_drone_control) StdoutLine: {'line': b'byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/teleop_joystick.py to teleop_joystick.cpython-310.pyc\n'}
+[1.004231] (uav_drone_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.004533] (uav_drone_control) StdoutLine: {'line': b'byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/open_loop_control.py to open_loop_control.cpython-310.pyc\n'}
+[1.005963] (uav_drone_control) StdoutLine: {'line': b'byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/autonomous_explorer.py to autonomous_explorer.cpython-310.pyc\n'}
+[1.006915] (uav_drone_control) StdoutLine: {'line': b'byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/teleop.py to teleop.cpython-310.pyc\n'}
+[1.007483] (uav_drone_control) StdoutLine: {'line': b'running install_data\n'}
+[1.007593] (uav_drone_control) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_control/share/ament_index\n'}
+[1.007697] (uav_drone_control) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_control/share/ament_index/resource_index\n'}
+[1.007785] (uav_drone_control) StdoutLine: {'line': b'creating /home/manya/uav_drone/install/uav_drone_control/share/ament_index/resource_index/packages\n'}
+[1.007898] (uav_drone_control) StdoutLine: {'line': b'copying resource/uav_drone_control -> /home/manya/uav_drone/install/uav_drone_control/share/ament_index/resource_index/packages\n'}
+[1.007960] (uav_drone_control) StdoutLine: {'line': b'copying package.xml -> /home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control\n'}
+[1.008017] (uav_drone_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.010111] (uav_drone_control) StdoutLine: {'line': b'Copying ../build/uav_drone_control/uav_drone_control.egg-info to /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control-0.0.0-py3.10.egg-info\n'}
+[1.010345] (uav_drone_simulation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.010890] (uav_drone_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.017344] (uav_drone_bringup) StdoutLine: {'line': b'Installing spawn_drone script to /home/manya/uav_drone/install/uav_drone_bringup/lib/uav_drone_bringup\n'}
+[1.017621] (uav_drone_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/manya/uav_drone/build/uav_drone_bringup/install.log'\n"}
+[1.020644] (uav_drone_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.028125] (uav_drone_control) StdoutLine: {'line': b'Installing autonomous_explorer script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control\n'}
+[1.028350] (uav_drone_control) StdoutLine: {'line': b'Installing drone_position_control script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control\n'}
+[1.028412] (uav_drone_control) StdoutLine: {'line': b'Installing open_loop_control script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control\n'}
+[1.028460] (uav_drone_control) StdoutLine: {'line': b'Installing teleop script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control\n'}
+[1.028505] (uav_drone_control) StdoutLine: {'line': b'Installing teleop_joystick script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control\n'}
+[1.028632] (uav_drone_control) StdoutLine: {'line': b"writing list of installed files to '/home/manya/uav_drone/build/uav_drone_control/install.log'\n"}
+[1.032216] (uav_drone_description) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.036786] (uav_drone_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.042405] (uav_drone_bringup) CommandEnded: {'returncode': 0}
+[1.043086] (uav_drone_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.053568] (uav_drone_bringup) JobEnded: {'identifier': 'uav_drone_bringup', 'rc': 0}
+[1.058162] (uav_drone_control) CommandEnded: {'returncode': 0}
+[1.061789] (uav_drone_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.062701] (uav_drone_control) JobEnded: {'identifier': 'uav_drone_control', 'rc': 0}
+[1.080798] (uav_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.086079] (uav_drone_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.093735] (uav_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.100800] (-) TimerEvent: {}
+[1.104916] (uav_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.121129] (uav_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.128336] (uav_drone_simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.131763] (uav_drone_simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.178821] (uav_drone_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.181643] (uav_drone_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.200891] (-) TimerEvent: {}
+[1.233057] (uav_drone_simulation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.260860] (uav_drone_simulation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.273931] (uav_drone_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.299541] (uav_drone_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.300968] (-) TimerEvent: {}
+[1.306883] (uav_drone_simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.318026] (uav_drone_simulation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.347639] (uav_drone_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.356334] (uav_drone_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.385553] (uav_drone_simulation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.385956] (uav_drone_simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401084] (-) TimerEvent: {}
+[1.417596] (uav_drone_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.417875] (uav_drone_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.450133] (uav_drone_simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.450931] (uav_drone_simulation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.480772] (uav_drone_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.481670] (uav_drone_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.501469] (-) TimerEvent: {}
+[1.579082] (uav_drone_simulation) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.601507] (uav_drone_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.601607] (-) TimerEvent: {}
+[1.615083] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.615190] (uav_drone_simulation) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.627654] (uav_drone_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.680366] (uav_drone_simulation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.701708] (-) TimerEvent: {}
+[1.740020] (uav_drone_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.748458] (uav_drone_simulation) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.764355] (uav_drone_simulation) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.788692] (uav_drone_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.802105] (-) TimerEvent: {}
+[1.808933] (uav_drone_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.836269] (uav_drone_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.851115] (uav_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.856902] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.864249] (uav_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.865891] (uav_drone_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.866212] (uav_drone_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.871153] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.883651] (uav_drone_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.902216] (-) TimerEvent: {}
+[1.917319] (uav_drone_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.930252] (uav_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.934847] (uav_drone_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.934946] (uav_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.938932] (uav_drone_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.939030] (uav_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.942965] (uav_drone_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.943086] (uav_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.946873] (uav_drone_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.946972] (uav_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.951418] (uav_drone_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.951518] (uav_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.955421] (uav_drone_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.002613] (-) TimerEvent: {}
+[2.031832] (uav_drone_simulation) StdoutLine: {'line': b'-- Found nav2_bringup: 1.1.15 (/opt/ros/humble/share/nav2_bringup/cmake)\n'}
+[2.041250] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.044096] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.044480] (uav_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.063641] (uav_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.076224] (uav_drone_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.081955] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.083036] (uav_drone_simulation) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.087721] (uav_drone_simulation) StdoutLine: {'line': b'-- Generating done\n'}
+[2.089024] (uav_drone_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/manya/uav_drone/build/uav_drone_simulation\n'}
+[2.096346] (uav_drone_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.097801] (uav_drone_simulation) CommandEnded: {'returncode': 0}
+[2.098312] (uav_drone_simulation) JobProgress: {'identifier': 'uav_drone_simulation', 'progress': 'build'}
+[2.099376] (uav_drone_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/manya/uav_drone/build/uav_drone_simulation', '--', '-j12', '-l12'], 'cwd': '/home/manya/uav_drone/build/uav_drone_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/manya'), ('OLDPWD', '/home/manya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1608'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'manya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manya'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/manya/PX4-Autopilot/Tools/sitl_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/manya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/manya-Inspiron-14-7425-2-in-1:@/tmp/.ICE-unix/1582,unix/manya-Inspiron-14-7425-2-in-1:/tmp/.ICE-unix/1582'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09303301_8bf8_43d1_b1b0_2f46de7db3e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z0TNS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manya/uav_drone/build/uav_drone_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble')]), 'shell': False}
+[2.102679] (-) TimerEvent: {}
+[2.133916] (uav_drone_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.136194] (uav_drone_simulation) CommandEnded: {'returncode': 0}
+[2.139194] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.152035] (uav_drone_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.156040] (uav_drone_simulation) JobProgress: {'identifier': 'uav_drone_simulation', 'progress': 'install'}
+[2.164645] (uav_drone_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/manya/uav_drone/build/uav_drone_simulation'], 'cwd': '/home/manya/uav_drone/build/uav_drone_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/manya'), ('OLDPWD', '/home/manya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1608'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'manya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manya'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/manya/PX4-Autopilot/Tools/sitl_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/manya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/manya-Inspiron-14-7425-2-in-1:@/tmp/.ICE-unix/1582,unix/manya-Inspiron-14-7425-2-in-1:/tmp/.ICE-unix/1582'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09303301_8bf8_43d1_b1b0_2f46de7db3e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z0TNS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manya/uav_drone/build/uav_drone_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble')]), 'shell': False}
+[2.170954] (uav_drone_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.171078] (uav_drone_simulation) StdoutLine: {'line': b'-- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation//launch\n'}
+[2.171184] (uav_drone_simulation) StdoutLine: {'line': b'-- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation//launch/autonomous_exploration.launch.py\n'}
+[2.171318] (uav_drone_simulation) StdoutLine: {'line': b'-- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation//launch/simulation.launch.py\n'}
+[2.171452] (uav_drone_simulation) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:46 (file):\n'}
+[2.171556] (uav_drone_simulation) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[2.171632] (uav_drone_simulation) StderrLine: {'line': b'  "/home/manya/uav_drone/uav_drone_simulation/config": No such file or\n'}
+[2.171708] (uav_drone_simulation) StderrLine: {'line': b'  directory.\n'}
+[2.171765] (uav_drone_simulation) StderrLine: {'line': b'\n'}
+[2.171829] (uav_drone_simulation) StderrLine: {'line': b'\x1b[0m\n'}
+[2.172583] (uav_drone_simulation) CommandEnded: {'returncode': 1}
+[2.184720] (uav_drone_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.187975] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.188352] (uav_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.195644] (uav_drone_simulation) JobEnded: {'identifier': 'uav_drone_simulation', 'rc': 1}
+[2.202747] (-) TimerEvent: {}
+[2.208194] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.213140] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.225618] (uav_drone_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.259969] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.262938] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.263452] (uav_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.263918] (uav_drone_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.265004] (uav_drone_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.266027] (uav_drone_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.276617] (uav_drone_description) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.277175] (uav_drone_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.279897] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.280381] (uav_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.280661] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.283952] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.284304] (uav_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.303233] (-) TimerEvent: {}
+[2.361779] (uav_drone_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.370506] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.382725] (uav_drone_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.403522] (-) TimerEvent: {}
+[2.415015] (uav_drone_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.420152] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.432487] (uav_drone_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.465141] (uav_drone_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.465447] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.465763] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.466067] (uav_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.470117] (uav_drone_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.470349] (uav_drone_description) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.482598] (uav_drone_description) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.503607] (-) TimerEvent: {}
+[2.519688] (uav_drone_description) StdoutLine: {'line': b'-- Found gazebo_plugins: 3.7.0 (/opt/ros/humble/share/gazebo_plugins/cmake)\n'}
+[2.603706] (-) TimerEvent: {}
+[2.703916] (-) TimerEvent: {}
+[2.742831] (uav_drone_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.803606] (uav_drone_description) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.803995] (-) TimerEvent: {}
+[2.865214] (uav_drone_description) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.878848] (uav_drone_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.904122] (-) TimerEvent: {}
+[3.004418] (-) TimerEvent: {}
+[3.104676] (-) TimerEvent: {}
+[3.135607] (uav_drone_description) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[3.146673] (uav_drone_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.148005] (uav_drone_description) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.148156] (uav_drone_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.204753] (-) TimerEvent: {}
+[3.231352] (uav_drone_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.298668] (uav_drone_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.298903] (uav_drone_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/manya/uav_drone/uav_drone_description/include;$<BUILD_INTERFACE:/home/manya/uav_drone/uav_drone_description/include>\n'}
+[3.298985] (uav_drone_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.299995] (uav_drone_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.301986] (uav_drone_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.302076] (uav_drone_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.302510] (uav_drone_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.304834] (-) TimerEvent: {}
+[3.305617] (uav_drone_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.350664] (uav_drone_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.353371] (uav_drone_description) StdoutLine: {'line': b'-- Build files have been written to: /home/manya/uav_drone/build/uav_drone_description\n'}
+[3.364568] (uav_drone_description) JobEnded: {'identifier': 'uav_drone_description', 'rc': 'SIGINT'}
+[3.375851] (-) EventReactorShutdown: {}

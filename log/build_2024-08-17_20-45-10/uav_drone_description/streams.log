@@ -1,0 +1,51 @@
+[0.405s] Invoking command in '/home/manya/uav_drone/build/uav_drone_description': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_description -- -j12 -l12
+[0.460s] [ 75%] [32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/pid_controller.cpp.o[0m
+[0.460s] [ 75%] [32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o[0m
+[0.460s] [ 75%] [32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone_private.cpp.o[0m
+[25.757s] [100%] [32m[1mLinking CXX shared library /home/manya/uav_drone/uav_drone_description/plugins/libplugin_drone.so[0m
+[27.299s] [100%] Built target plugin_drone
+[27.309s] Invoked command in '/home/manya/uav_drone/build/uav_drone_description' returned '0': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_description -- -j12 -l12
+[27.341s] Invoking command in '/home/manya/uav_drone/build/uav_drone_description': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_description
+[27.347s] -- Install configuration: ""
+[27.347s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/include
+[27.347s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/include/uav_drone_description
+[27.347s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/include/uav_drone_description/plugin_drone.h
+[27.347s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/include/uav_drone_description/pid_controller.h
+[27.347s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/include/uav_drone_description/plugin_drone_private.h
+[27.348s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/lib/libplugin_drone.so
+[27.372s] -- Set runtime path of "/home/manya/uav_drone/install/uav_drone_description/lib/libplugin_drone.so" to ""
+[27.372s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/library_path.sh
+[27.372s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/library_path.dsv
+[27.372s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models
+[27.372s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/database.config
+[27.373s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone
+[27.373s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone/quadrotor_4.stl
+[27.373s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone/quadrotor_4.dae
+[27.374s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone/model.config
+[27.374s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone/sjtu_drone.sdf
+[27.374s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/urdf
+[27.374s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/urdf/uav_drone.urdf
+[27.374s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/urdf/uav_drone.urdf.xacro
+[27.374s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/worlds
+[27.375s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/worlds/playground.world
+[27.375s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/ament_index/resource_index/package_run_dependencies/uav_drone_description
+[27.375s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/ament_index/resource_index/parent_prefix_path/uav_drone_description
+[27.375s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/ament_prefix_path.sh
+[27.375s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/ament_prefix_path.dsv
+[27.375s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/path.sh
+[27.376s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/path.dsv
+[27.376s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/local_setup.bash
+[27.376s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/local_setup.sh
+[27.376s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/local_setup.zsh
+[27.376s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/local_setup.dsv
+[27.376s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/package.dsv
+[27.376s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/ament_index/resource_index/packages/uav_drone_description
+[27.377s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/export_uav_drone_descriptionExport.cmake
+[27.377s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/export_uav_drone_descriptionExport-noconfig.cmake
+[27.377s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.377s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/ament_cmake_export_libraries-extras.cmake
+[27.377s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/ament_cmake_export_targets-extras.cmake
+[27.377s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/uav_drone_descriptionConfig.cmake
+[27.377s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/uav_drone_descriptionConfig-version.cmake
+[27.377s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/package.xml
+[27.380s] Invoked command in '/home/manya/uav_drone/build/uav_drone_description' returned '0': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_description

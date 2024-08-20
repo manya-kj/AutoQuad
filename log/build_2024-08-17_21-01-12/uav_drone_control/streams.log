@@ -1,0 +1,16 @@
+[0.771s] Invoking command in '/home/manya/uav_drone/uav_drone_control': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_control build --build-base /home/manya/uav_drone/build/uav_drone_control/build install --record /home/manya/uav_drone/build/uav_drone_control/install.log --single-version-externally-managed install_data
+[0.961s] running egg_info
+[0.962s] writing ../build/uav_drone_control/uav_drone_control.egg-info/PKG-INFO
+[0.962s] writing dependency_links to ../build/uav_drone_control/uav_drone_control.egg-info/dependency_links.txt
+[0.962s] writing entry points to ../build/uav_drone_control/uav_drone_control.egg-info/entry_points.txt
+[0.962s] writing requirements to ../build/uav_drone_control/uav_drone_control.egg-info/requires.txt
+[0.962s] writing top-level names to ../build/uav_drone_control/uav_drone_control.egg-info/top_level.txt
+[0.963s] reading manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'
+[0.964s] writing manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'
+[0.964s] running build
+[0.964s] running build_py
+[0.964s] running install
+[0.964s] running install_lib
+[0.965s] running install_data
+[0.965s] error: can't copy 'resource/uav_drone_control': doesn't exist or not a regular file
+[0.983s] Invoked command in '/home/manya/uav_drone/uav_drone_control' returned '1': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_control build --build-base /home/manya/uav_drone/build/uav_drone_control/build install --record /home/manya/uav_drone/build/uav_drone_control/install.log --single-version-externally-managed install_data

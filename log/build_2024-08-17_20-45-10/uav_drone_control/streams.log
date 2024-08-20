@@ -1,0 +1,25 @@
+[0.784s] Invoking command in '/home/manya/uav_drone/uav_drone_control': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_control build --build-base /home/manya/uav_drone/build/uav_drone_control/build install --record /home/manya/uav_drone/build/uav_drone_control/install.log --single-version-externally-managed install_data
+[1.000s] running egg_info
+[1.001s] writing ../build/uav_drone_control/uav_drone_control.egg-info/PKG-INFO
+[1.001s] writing dependency_links to ../build/uav_drone_control/uav_drone_control.egg-info/dependency_links.txt
+[1.001s] writing entry points to ../build/uav_drone_control/uav_drone_control.egg-info/entry_points.txt
+[1.001s] writing requirements to ../build/uav_drone_control/uav_drone_control.egg-info/requires.txt
+[1.002s] writing top-level names to ../build/uav_drone_control/uav_drone_control.egg-info/top_level.txt
+[1.003s] reading manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'
+[1.004s] writing manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'
+[1.004s] running build
+[1.004s] running build_py
+[1.005s] running install
+[1.005s] running install_lib
+[1.006s] running install_data
+[1.006s] running install_egg_info
+[1.008s] removing '/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.008s] Copying ../build/uav_drone_control/uav_drone_control.egg-info to /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control-0.0.0-py3.10.egg-info
+[1.009s] running install_scripts
+[1.030s] Installing autonomous_explorer script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.030s] Installing drone_position_control script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.030s] Installing open_loop_control script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.030s] Installing teleop script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.030s] Installing teleop_joystick script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.031s] writing list of installed files to '/home/manya/uav_drone/build/uav_drone_control/install.log'
+[1.067s] Invoked command in '/home/manya/uav_drone/uav_drone_control' returned '0': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_control build --build-base /home/manya/uav_drone/build/uav_drone_control/build install --record /home/manya/uav_drone/build/uav_drone_control/install.log --single-version-externally-managed install_data

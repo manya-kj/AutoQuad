@@ -1,0 +1,6 @@
+Invoking command in '/home/manya/uav_drone/build/uav_drone_simulation': /usr/bin/cmake /home/manya/uav_drone/uav_drone_simulation -DCMAKE_INSTALL_PREFIX=/home/manya/uav_drone/install/uav_drone_simulation
+Invoked command in '/home/manya/uav_drone/build/uav_drone_simulation' returned '0': /usr/bin/cmake /home/manya/uav_drone/uav_drone_simulation -DCMAKE_INSTALL_PREFIX=/home/manya/uav_drone/install/uav_drone_simulation
+Invoking command in '/home/manya/uav_drone/build/uav_drone_simulation': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_simulation -- -j12 -l12
+Invoked command in '/home/manya/uav_drone/build/uav_drone_simulation' returned '0': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_simulation -- -j12 -l12
+Invoking command in '/home/manya/uav_drone/build/uav_drone_simulation': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_simulation
+Invoked command in '/home/manya/uav_drone/build/uav_drone_simulation' returned '1': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_simulation

@@ -1,0 +1,53 @@
+[0.782s] Invoking command in '/home/manya/uav_drone/uav_drone_control': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_control build --build-base /home/manya/uav_drone/build/uav_drone_control/build install --record /home/manya/uav_drone/build/uav_drone_control/install.log --single-version-externally-managed install_data
+[0.990s] running egg_info
+[0.991s] creating ../build/uav_drone_control/uav_drone_control.egg-info
+[0.991s] writing ../build/uav_drone_control/uav_drone_control.egg-info/PKG-INFO
+[0.991s] writing dependency_links to ../build/uav_drone_control/uav_drone_control.egg-info/dependency_links.txt
+[0.992s] writing entry points to ../build/uav_drone_control/uav_drone_control.egg-info/entry_points.txt
+[0.992s] writing requirements to ../build/uav_drone_control/uav_drone_control.egg-info/requires.txt
+[0.992s] writing top-level names to ../build/uav_drone_control/uav_drone_control.egg-info/top_level.txt
+[0.992s] writing manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'
+[0.993s] reading manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'
+[0.994s] writing manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] creating /home/manya/uav_drone/build/uav_drone_control/build
+[0.994s] creating /home/manya/uav_drone/build/uav_drone_control/build/lib
+[0.994s] creating /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control
+[0.994s] copying uav_drone_control/drone_position_control.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control
+[0.994s] copying uav_drone_control/__init__.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control
+[0.994s] copying uav_drone_control/teleop_joystick.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control
+[0.995s] copying uav_drone_control/open_loop_control.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control
+[0.995s] copying uav_drone_control/autonomous_explorer.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control
+[0.995s] copying uav_drone_control/teleop.py -> /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control
+[0.995s] running install
+[0.995s] running install_lib
+[0.996s] creating /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control
+[0.996s] copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/drone_position_control.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control
+[0.996s] copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/__init__.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control
+[0.997s] copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/teleop_joystick.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control
+[0.997s] copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/open_loop_control.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control
+[0.997s] copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/autonomous_explorer.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control
+[0.997s] copying /home/manya/uav_drone/build/uav_drone_control/build/lib/uav_drone_control/teleop.py -> /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control
+[0.997s] byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/drone_position_control.py to drone_position_control.cpython-310.pyc
+[0.998s] byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/__init__.py to __init__.cpython-310.pyc
+[0.998s] byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/teleop_joystick.py to teleop_joystick.cpython-310.pyc
+[0.998s] byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/open_loop_control.py to open_loop_control.cpython-310.pyc
+[1.000s] byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/autonomous_explorer.py to autonomous_explorer.cpython-310.pyc
+[1.001s] byte-compiling /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control/teleop.py to teleop.cpython-310.pyc
+[1.001s] running install_data
+[1.001s] creating /home/manya/uav_drone/install/uav_drone_control/share/ament_index
+[1.001s] creating /home/manya/uav_drone/install/uav_drone_control/share/ament_index/resource_index
+[1.001s] creating /home/manya/uav_drone/install/uav_drone_control/share/ament_index/resource_index/packages
+[1.002s] copying resource/uav_drone_control -> /home/manya/uav_drone/install/uav_drone_control/share/ament_index/resource_index/packages
+[1.002s] copying package.xml -> /home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control
+[1.002s] running install_egg_info
+[1.004s] Copying ../build/uav_drone_control/uav_drone_control.egg-info to /home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages/uav_drone_control-0.0.0-py3.10.egg-info
+[1.005s] running install_scripts
+[1.022s] Installing autonomous_explorer script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.022s] Installing drone_position_control script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.022s] Installing open_loop_control script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.022s] Installing teleop script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.022s] Installing teleop_joystick script to /home/manya/uav_drone/install/uav_drone_control/lib/uav_drone_control
+[1.022s] writing list of installed files to '/home/manya/uav_drone/build/uav_drone_control/install.log'
+[1.052s] Invoked command in '/home/manya/uav_drone/uav_drone_control' returned '0': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_control build --build-base /home/manya/uav_drone/build/uav_drone_control/build install --record /home/manya/uav_drone/build/uav_drone_control/install.log --single-version-externally-managed install_data

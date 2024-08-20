@@ -1,0 +1,15 @@
+[0.761s] Invoking command in '/home/manya/uav_drone/uav_drone_control': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_control build --build-base /home/manya/uav_drone/build/uav_drone_control/build install --record /home/manya/uav_drone/build/uav_drone_control/install.log --single-version-externally-managed install_data
+[0.950s] running egg_info
+[0.950s] writing ../build/uav_drone_control/uav_drone_control.egg-info/PKG-INFO
+[0.951s] writing dependency_links to ../build/uav_drone_control/uav_drone_control.egg-info/dependency_links.txt
+[0.951s] writing entry points to ../build/uav_drone_control/uav_drone_control.egg-info/entry_points.txt
+[0.951s] writing requirements to ../build/uav_drone_control/uav_drone_control.egg-info/requires.txt
+[0.951s] writing top-level names to ../build/uav_drone_control/uav_drone_control.egg-info/top_level.txt
+[0.953s] reading manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'
+[0.953s] writing manifest file '../build/uav_drone_control/uav_drone_control.egg-info/SOURCES.txt'
+[0.953s] running build
+[0.953s] running build_py
+[0.954s] running install
+[0.954s] running install_lib
+[0.955s] running install_data
+[0.955s] error: can't copy 'resource/uav_drone_control': doesn't exist or not a regular file

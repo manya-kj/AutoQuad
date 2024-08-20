@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/uav_drone_bringup/uav_drone_bringup.egg-info/PKG-INFO
+../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt
+../build/uav_drone_bringup/uav_drone_bringup.egg-info/dependency_links.txt
+../build/uav_drone_bringup/uav_drone_bringup.egg-info/entry_points.txt
+../build/uav_drone_bringup/uav_drone_bringup.egg-info/requires.txt
+../build/uav_drone_bringup/uav_drone_bringup.egg-info/top_level.txt
+../build/uav_drone_bringup/uav_drone_bringup.egg-info/zip-safe
+config/drone.yaml
+launch/uav_drone_bringup.launch.py
+launch/uav_drone_gazebo.launch.py
+resource/uav_drone_bringup
+rviz/rviz.rviz
+uav_drone_bringup/__init__.py
+uav_drone_bringup/spawn_drone.py

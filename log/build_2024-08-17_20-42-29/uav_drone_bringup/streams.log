@@ -1,0 +1,44 @@
+[0.789s] Invoking command in '/home/manya/uav_drone/uav_drone_bringup': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_bringup build --build-base /home/manya/uav_drone/build/uav_drone_bringup/build install --record /home/manya/uav_drone/build/uav_drone_bringup/install.log --single-version-externally-managed install_data
+[0.991s] running egg_info
+[0.992s] creating ../build/uav_drone_bringup/uav_drone_bringup.egg-info
+[0.992s] writing ../build/uav_drone_bringup/uav_drone_bringup.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/dependency_links.txt
+[0.992s] writing entry points to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/entry_points.txt
+[0.992s] writing requirements to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/requires.txt
+[0.992s] writing top-level names to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/top_level.txt
+[0.992s] writing manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'
+[0.994s] reading manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'
+[0.994s] writing manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] creating /home/manya/uav_drone/build/uav_drone_bringup/build
+[0.994s] creating /home/manya/uav_drone/build/uav_drone_bringup/build/lib
+[0.994s] creating /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup
+[0.995s] copying uav_drone_bringup/__init__.py -> /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup
+[0.995s] copying uav_drone_bringup/spawn_drone.py -> /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup
+[0.995s] running install
+[0.995s] running install_lib
+[0.996s] creating /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup
+[0.996s] copying /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup/__init__.py -> /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup
+[0.996s] copying /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup/spawn_drone.py -> /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup
+[0.996s] byte-compiling /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup/__init__.py to __init__.cpython-310.pyc
+[0.997s] byte-compiling /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup/spawn_drone.py to spawn_drone.cpython-310.pyc
+[0.997s] running install_data
+[0.997s] creating /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index
+[0.997s] creating /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index/resource_index
+[0.997s] creating /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index/resource_index/packages
+[0.997s] copying resource/uav_drone_bringup -> /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index/resource_index/packages
+[0.998s] copying package.xml -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup
+[0.998s] creating /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/launch
+[0.998s] copying launch/uav_drone_bringup.launch.py -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/launch
+[0.998s] copying launch/uav_drone_gazebo.launch.py -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/launch
+[0.998s] creating /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/rviz
+[0.998s] copying rviz/rviz.rviz -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/rviz
+[0.998s] creating /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/config
+[0.998s] copying config/drone.yaml -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/config
+[0.998s] running install_egg_info
+[1.000s] Copying ../build/uav_drone_bringup/uav_drone_bringup.egg-info to /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup-0.0.0-py3.10.egg-info
+[1.000s] running install_scripts
+[1.017s] Installing spawn_drone script to /home/manya/uav_drone/install/uav_drone_bringup/lib/uav_drone_bringup
+[1.017s] writing list of installed files to '/home/manya/uav_drone/build/uav_drone_bringup/install.log'
+[1.042s] Invoked command in '/home/manya/uav_drone/uav_drone_bringup' returned '0': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_bringup build --build-base /home/manya/uav_drone/build/uav_drone_bringup/build install --record /home/manya/uav_drone/build/uav_drone_bringup/install.log --single-version-externally-managed install_data

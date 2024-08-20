@@ -1,0 +1,17 @@
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation//launch/autonomous_exploration.launch.py
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation//launch/simulation.launch.py
+/home/manya/uav_drone/install/uav_drone_simulation/share/ament_index/resource_index/package_run_dependencies/uav_drone_simulation
+/home/manya/uav_drone/install/uav_drone_simulation/share/ament_index/resource_index/parent_prefix_path/uav_drone_simulation
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/environment/ament_prefix_path.sh
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/environment/ament_prefix_path.dsv
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/environment/path.sh
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/environment/path.dsv
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/local_setup.bash
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/local_setup.sh
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/local_setup.zsh
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/local_setup.dsv
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/package.dsv
+/home/manya/uav_drone/install/uav_drone_simulation/share/ament_index/resource_index/packages/uav_drone_simulation
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/cmake/uav_drone_simulationConfig.cmake
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/cmake/uav_drone_simulationConfig-version.cmake
+/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/package.xml

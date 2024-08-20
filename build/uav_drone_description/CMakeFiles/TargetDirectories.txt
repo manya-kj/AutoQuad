@@ -1,0 +1,10 @@
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/uninstall.dir
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/uav_drone_description_uninstall.dir
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/plugin_drone.dir
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/test.dir
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/edit_cache.dir
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/rebuild_cache.dir
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/list_install_components.dir
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/install.dir
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/install/local.dir
+/home/manya/uav_drone/build/uav_drone_description/CMakeFiles/install/strip.dir

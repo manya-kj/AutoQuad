@@ -1,0 +1,47 @@
+[0.408s] Invoking command in '/home/manya/uav_drone/build/uav_drone_description': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_description -- -j12 -l12
+[0.456s] [35m[1mConsolidate compiler generated dependencies of target plugin_drone[0m
+[0.523s] [100%] Built target plugin_drone
+[0.535s] Invoked command in '/home/manya/uav_drone/build/uav_drone_description' returned '0': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_description -- -j12 -l12
+[0.564s] Invoking command in '/home/manya/uav_drone/build/uav_drone_description': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_description
+[0.572s] -- Install configuration: ""
+[0.572s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/include
+[0.572s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/include/uav_drone_description
+[0.572s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/include/uav_drone_description/plugin_drone.h
+[0.572s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/include/uav_drone_description/pid_controller.h
+[0.572s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/include/uav_drone_description/plugin_drone_private.h
+[0.572s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/lib/libplugin_drone.so
+[0.572s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/library_path.sh
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/library_path.dsv
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/database.config
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone/quadrotor_4.stl
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone/quadrotor_4.dae
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone/model.config
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/models/uav_drone/sjtu_drone.sdf
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/urdf
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/urdf/uav_drone.urdf
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/urdf/uav_drone.urdf.xacro
+[0.573s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/worlds
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/worlds/playground.world
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/ament_index/resource_index/package_run_dependencies/uav_drone_description
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/ament_index/resource_index/parent_prefix_path/uav_drone_description
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/ament_prefix_path.sh
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/ament_prefix_path.dsv
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/path.sh
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/environment/path.dsv
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/local_setup.bash
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/local_setup.sh
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/local_setup.zsh
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/local_setup.dsv
+[0.574s] -- Installing: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/package.dsv
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/ament_index/resource_index/packages/uav_drone_description
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/export_uav_drone_descriptionExport.cmake
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/export_uav_drone_descriptionExport-noconfig.cmake
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/ament_cmake_export_libraries-extras.cmake
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/ament_cmake_export_targets-extras.cmake
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/uav_drone_descriptionConfig.cmake
+[0.574s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/cmake/uav_drone_descriptionConfig-version.cmake
+[0.575s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_description/share/uav_drone_description/package.xml
+[0.576s] Invoked command in '/home/manya/uav_drone/build/uav_drone_description' returned '0': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_description

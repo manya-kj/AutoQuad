@@ -1,0 +1,44 @@
+uav_drone (workspace)
+|---uav_drone_bringup
+      |--config > drone.yaml
+      |--launch > uav_drone_gazebo.launch.py
+      |         > uav_drone_bringup.launch.py 
+      |--rviz > rviz.rviz
+      |--uav_drone_bringup >spawn_drone.py
+      |--package.xml
+      |--setup.py & setup.cfg
+|---uav_drone_control
+      |--uav_drone_control > drone_utils 
+      |                      |>controllers.py
+      |                      |>drone_object.py
+      |                      |>autonomous_explorer.py
+      |                    >drone_position_control.py
+      |                    >open_loop_control.py
+      |                    >teleop.py
+      |                    >teleop_joystick.py
+      |--package.xml
+      |--setup.py & setup.cfg
+|---uav_drone_description
+      |--include > uav_drone_description 
+      |                      |>pid_controller.h
+      |                      |>plugin_drone.h
+      |                      |>plugin_drone_private.h
+      |--models > uav_drone
+      |              |>model.config
+      |              |>quadrotor_4.dae
+      |              |>quadrotor_4.stl
+      |              |>sjtu_drone.sdf
+      |         > database.config
+      |--plugins > libplugin_drone.so
+      |--src > pid_controller.cpp
+      |      > plugin_drone.cpp
+      |      > plugin_drone_private.cpp
+      |--urdf > uav_drone.urdf.xacro
+      |--worlds > playground.world
+      |--package.xml
+      |--CMakeLists.txt
+|---uav_drone_simulation
+      |--launch > minimal_simulation.launch.py
+      |         > autonomous_exploration.launch.py
+      |--package.xml
+      |--CMakeLists.txt

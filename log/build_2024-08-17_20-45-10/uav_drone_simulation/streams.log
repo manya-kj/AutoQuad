@@ -1,0 +1,42 @@
+[0.406s] Invoking command in '/home/manya/uav_drone/build/uav_drone_simulation': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_simulation -- -j12 -l12
+[0.427s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.535s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.562s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.563s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.568s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.641s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.642s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.773s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.907s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.944s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.014s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.090s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.096s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.362s] -- Found nav2_bringup: 1.1.15 (/opt/ros/humble/share/nav2_bringup/cmake)
+[1.421s] -- Configuring done
+[1.426s] -- Generating done
+[1.427s] -- Build files have been written to: /home/manya/uav_drone/build/uav_drone_simulation
+[1.463s] Invoked command in '/home/manya/uav_drone/build/uav_drone_simulation' returned '0': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_simulation -- -j12 -l12
+[1.501s] Invoking command in '/home/manya/uav_drone/build/uav_drone_simulation': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_simulation
+[1.509s] -- Install configuration: ""
+[1.510s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation//launch
+[1.510s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation//launch/autonomous_exploration.launch.py
+[1.510s] -- Up-to-date: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation//launch/simulation.launch.py
+[1.510s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/ament_index/resource_index/package_run_dependencies/uav_drone_simulation
+[1.510s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/ament_index/resource_index/parent_prefix_path/uav_drone_simulation
+[1.510s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/environment/ament_prefix_path.sh
+[1.510s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/environment/ament_prefix_path.dsv
+[1.510s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/environment/path.sh
+[1.510s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/environment/path.dsv
+[1.510s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/local_setup.bash
+[1.510s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/local_setup.sh
+[1.511s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/local_setup.zsh
+[1.511s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/local_setup.dsv
+[1.511s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/package.dsv
+[1.511s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/ament_index/resource_index/packages/uav_drone_simulation
+[1.511s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/cmake/uav_drone_simulationConfig.cmake
+[1.511s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/cmake/uav_drone_simulationConfig-version.cmake
+[1.511s] -- Installing: /home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/package.xml
+[1.514s] Invoked command in '/home/manya/uav_drone/build/uav_drone_simulation' returned '0': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_simulation

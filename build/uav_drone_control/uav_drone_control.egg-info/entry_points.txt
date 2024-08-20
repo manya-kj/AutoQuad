@@ -1,0 +1,7 @@
+[console_scripts]
+autonomous_explorer = uav_drone_control.autonomous_explorer:main
+drone_position_control = uav_drone_control.drone_position_control:main
+open_loop_control = uav_drone_control.open_loop_control:main
+teleop = uav_drone_control.teleop:main
+teleop_joystick = uav_drone_control.teleop_joystick:main
+

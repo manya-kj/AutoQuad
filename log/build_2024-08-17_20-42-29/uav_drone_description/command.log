@@ -1,0 +1,1 @@
+Invoking command in '/home/manya/uav_drone/build/uav_drone_description': /usr/bin/cmake /home/manya/uav_drone/uav_drone_description -DCMAKE_INSTALL_PREFIX=/home/manya/uav_drone/install/uav_drone_description

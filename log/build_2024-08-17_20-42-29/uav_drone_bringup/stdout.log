@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/uav_drone_bringup/uav_drone_bringup.egg-info
+writing ../build/uav_drone_bringup/uav_drone_bringup.egg-info/PKG-INFO
+writing dependency_links to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/dependency_links.txt
+writing entry points to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/entry_points.txt
+writing requirements to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/requires.txt
+writing top-level names to ../build/uav_drone_bringup/uav_drone_bringup.egg-info/top_level.txt
+writing manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'
+reading manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'
+writing manifest file '../build/uav_drone_bringup/uav_drone_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/manya/uav_drone/build/uav_drone_bringup/build
+creating /home/manya/uav_drone/build/uav_drone_bringup/build/lib
+creating /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup
+copying uav_drone_bringup/__init__.py -> /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup
+copying uav_drone_bringup/spawn_drone.py -> /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup
+running install
+running install_lib
+creating /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup
+copying /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup/__init__.py -> /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup
+copying /home/manya/uav_drone/build/uav_drone_bringup/build/lib/uav_drone_bringup/spawn_drone.py -> /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup
+byte-compiling /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup/spawn_drone.py to spawn_drone.cpython-310.pyc
+running install_data
+creating /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index
+creating /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index/resource_index
+creating /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index/resource_index/packages
+copying resource/uav_drone_bringup -> /home/manya/uav_drone/install/uav_drone_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup
+creating /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/launch
+copying launch/uav_drone_bringup.launch.py -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/launch
+copying launch/uav_drone_gazebo.launch.py -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/launch
+creating /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/rviz
+copying rviz/rviz.rviz -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/rviz
+creating /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/config
+copying config/drone.yaml -> /home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/config
+running install_egg_info
+Copying ../build/uav_drone_bringup/uav_drone_bringup.egg-info to /home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages/uav_drone_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spawn_drone script to /home/manya/uav_drone/install/uav_drone_bringup/lib/uav_drone_bringup
+writing list of installed files to '/home/manya/uav_drone/build/uav_drone_bringup/install.log'

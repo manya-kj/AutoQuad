@@ -1,0 +1,230 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71e8b59593f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71e8b59585b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71e8b59585b0>>)
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.207s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/manya/uav_drone'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_bringup) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_bringup) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_bringup) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_bringup) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_bringup) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_bringup) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_bringup) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_bringup) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'uav_drone_bringup' with type 'ros.ament_python' and name 'uav_drone_bringup'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_control) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_control) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_control) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_control) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_control) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_control) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_control) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_control) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_control) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'uav_drone_control' with type 'ros.ament_python' and name 'uav_drone_control'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_description) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_description) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_description) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_description) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_description) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_description) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_description) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_description) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'uav_drone_description' with type 'ros.ament_cmake' and name 'uav_drone_description'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_simulation) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_simulation) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_simulation) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_simulation) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_simulation) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_simulation) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_simulation) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(uav_drone_simulation) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'uav_drone_simulation' with type 'ros.ament_cmake' and name 'uav_drone_simulation'
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.238s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 423 installed packages in /opt/ros/humble
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_bringup' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_bringup' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'uav_drone_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manya/uav_drone/build/uav_drone_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manya/uav_drone/install/uav_drone_bringup', 'merge_install': False, 'path': '/home/manya/uav_drone/uav_drone_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_control' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_control' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'uav_drone_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manya/uav_drone/build/uav_drone_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manya/uav_drone/install/uav_drone_control', 'merge_install': False, 'path': '/home/manya/uav_drone/uav_drone_control', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_description' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_description' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'uav_drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manya/uav_drone/build/uav_drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manya/uav_drone/install/uav_drone_description', 'merge_install': False, 'path': '/home/manya/uav_drone/uav_drone_description', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_simulation' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_simulation' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'uav_drone_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'uav_drone_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manya/uav_drone/build/uav_drone_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manya/uav_drone/install/uav_drone_simulation', 'merge_install': False, 'path': '/home/manya/uav_drone/uav_drone_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.286s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.287s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/manya/uav_drone/uav_drone_bringup' with build type 'ament_python'
+[0.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_drone_bringup', 'ament_prefix_path')
+[0.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/hook/ament_prefix_path.ps1'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/hook/ament_prefix_path.dsv'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/hook/ament_prefix_path.sh'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/manya/uav_drone/uav_drone_control' with build type 'ament_python'
+[0.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_drone_control', 'ament_prefix_path')
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/hook/ament_prefix_path.ps1'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/hook/ament_prefix_path.dsv'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/hook/ament_prefix_path.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manya/uav_drone/uav_drone_description' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manya/uav_drone/uav_drone_description'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manya/uav_drone/uav_drone_simulation' with build type 'ament_cmake'
+[0.300s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manya/uav_drone/uav_drone_simulation'
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.500s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/manya/uav_drone/uav_drone_bringup'
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.695s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/manya/uav_drone/uav_drone_control'
+[0.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manya/uav_drone/build/uav_drone_description': /usr/bin/cmake /home/manya/uav_drone/uav_drone_description -DCMAKE_INSTALL_PREFIX=/home/manya/uav_drone/install/uav_drone_description
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manya/uav_drone/build/uav_drone_simulation': /usr/bin/cmake /home/manya/uav_drone/uav_drone_simulation -DCMAKE_INSTALL_PREFIX=/home/manya/uav_drone/install/uav_drone_simulation
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manya/uav_drone/uav_drone_control': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_control build --build-base /home/manya/uav_drone/build/uav_drone_control/build install --record /home/manya/uav_drone/build/uav_drone_control/install.log --single-version-externally-managed install_data
+[1.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manya/uav_drone/uav_drone_bringup': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_bringup build --build-base /home/manya/uav_drone/build/uav_drone_bringup/build install --record /home/manya/uav_drone/build/uav_drone_bringup/install.log --single-version-externally-managed install_data
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manya/uav_drone/uav_drone_bringup' returned '0': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_bringup build --build-base /home/manya/uav_drone/build/uav_drone_bringup/build install --record /home/manya/uav_drone/build/uav_drone_bringup/install.log --single-version-externally-managed install_data
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_bringup' for CMake module files
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_bringup' for CMake config files
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_bringup/lib'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_bringup/bin'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_bringup/lib/pkgconfig/uav_drone_bringup.pc'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_bringup/lib/python3.10/site-packages'
+[1.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_drone_bringup', 'pythonpath')
+[1.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/hook/pythonpath.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/hook/pythonpath.dsv'
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/hook/pythonpath.sh'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_bringup/bin'
+[1.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_drone_bringup)
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/package.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/package.dsv'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/package.sh'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/package.bash'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_bringup/share/uav_drone_bringup/package.zsh'
+[1.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manya/uav_drone/install/uav_drone_bringup/share/colcon-core/packages/uav_drone_bringup)
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_control' for CMake module files
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manya/uav_drone/uav_drone_control' returned '0': PYTHONPATH=/home/manya/uav_drone/build/uav_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/uav_drone_control build --build-base /home/manya/uav_drone/build/uav_drone_control/build install --record /home/manya/uav_drone/build/uav_drone_control/install.log --single-version-externally-managed install_data
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_control' for CMake config files
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_control/lib'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_control/bin'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_control/lib/pkgconfig/uav_drone_control.pc'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_control/lib/python3.10/site-packages'
+[1.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_drone_control', 'pythonpath')
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/hook/pythonpath.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/hook/pythonpath.dsv'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/hook/pythonpath.sh'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_control/bin'
+[1.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_drone_control)
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/package.ps1'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/package.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/package.sh'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/package.bash'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_control/share/uav_drone_control/package.zsh'
+[1.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manya/uav_drone/install/uav_drone_control/share/colcon-core/packages/uav_drone_control)
+[2.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manya/uav_drone/build/uav_drone_simulation' returned '0': /usr/bin/cmake /home/manya/uav_drone/uav_drone_simulation -DCMAKE_INSTALL_PREFIX=/home/manya/uav_drone/install/uav_drone_simulation
+[2.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manya/uav_drone/build/uav_drone_simulation': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_simulation -- -j12 -l12
+[2.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manya/uav_drone/build/uav_drone_simulation' returned '0': /usr/bin/cmake --build /home/manya/uav_drone/build/uav_drone_simulation -- -j12 -l12
+[2.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manya/uav_drone/build/uav_drone_simulation': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_simulation
+[2.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manya/uav_drone/build/uav_drone_simulation' returned '1': /usr/bin/cmake --install /home/manya/uav_drone/build/uav_drone_simulation
+[2.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_drone_simulation)
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_simulation' for CMake module files
+[2.481s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_simulation' for CMake config files
+[2.481s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_simulation/bin'
+[2.481s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_simulation/lib/pkgconfig/uav_drone_simulation.pc'
+[2.481s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_simulation/lib/python3.10/site-packages'
+[2.481s] Level 1:colcon.colcon_core.environment:checking '/home/manya/uav_drone/install/uav_drone_simulation/bin'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/package.ps1'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/package.dsv'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/package.sh'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/package.bash'
+[2.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/manya/uav_drone/install/uav_drone_simulation/share/uav_drone_simulation/package.zsh'
+[2.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manya/uav_drone/install/uav_drone_simulation/share/colcon-core/packages/uav_drone_simulation)
+[3.663s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.663s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.663s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.663s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.668s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.668s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.668s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.677s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manya/uav_drone/install/local_setup.ps1'
+[3.678s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manya/uav_drone/install/_local_setup_util_ps1.py'
+[3.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manya/uav_drone/install/setup.ps1'
+[3.680s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manya/uav_drone/install/local_setup.sh'
+[3.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manya/uav_drone/install/_local_setup_util_sh.py'
+[3.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manya/uav_drone/install/setup.sh'
+[3.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manya/uav_drone/install/local_setup.bash'
+[3.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manya/uav_drone/install/setup.bash'
+[3.682s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manya/uav_drone/install/local_setup.zsh'
+[3.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manya/uav_drone/install/setup.zsh'
