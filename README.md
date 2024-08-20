@@ -52,4 +52,4 @@ Now the teleop window is used only for the quadcopter's takeoff, once it has tak
 ros2 launch uav_drone_simulation autonomous_exploration.launch.py
 ```
 ![WhatsApp Image 2024-08-19 at 18 26 11_3ad6c568](https://github.com/user-attachments/assets/cb70d747-99b5-48ce-bfe5-68e95d95e50d)
-![https://github.com/user-attachments/assets/97d2c43c-f8c8-4142-856f-7fdd280d14fc]
+![autonomous_nav video](https://github.com/user-attachments/assets/96e58d26-8581-4f8d-b0d1-30deaadb2844)
